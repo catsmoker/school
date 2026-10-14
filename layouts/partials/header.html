@@ -6,14 +6,14 @@
     <div class="container">
       <div class="row no-gutters align-items-center">
         <div class="col-lg-4 text-center text-lg-left">
-          <ul class="list-inline">
+          <ul class="list-inline mb-0">
             {{ range site.Params.social }}
             <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
         </div>
         <div class="col-lg-8 text-center text-lg-right">
-          <ul class="list-inline">
+          <ul class="list-inline mb-0">
             <li class="list-inline-item">
               <a class="text-color mr-3" href="tel:{{ site.Params.mobile }}"><strong>{{ i18n "call" | upper }} : </strong> {{ site.Params.mobile }}</a></li>
             <li class="list-inline-item">
@@ -37,7 +37,7 @@
         </button>
 
         <div class="collapse navbar-collapse text-center" id="navigation">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
             <li class="nav-item">
               <a class="nav-link" href="{{ site.BaseURL | relLangURL }}">{{ site.Params.Home }}</a>
             </li>

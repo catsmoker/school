@@ -1,7 +1,7 @@
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png" # TODO: replace with official OFPPT logo (www.ofppt.ma)
+logo = "images/logo.png"
 # Meta data
 description = "OFPPT — Office de la Formation Professionnelle et de la Promotion du Travail. La voie de l'avenir : formations professionnelles dans tout le Maroc."
 author = "OFPPT"

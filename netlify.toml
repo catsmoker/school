@@ -1,8 +1,9 @@
 [build]
 publish = "public"
-command = "yarn project-setup && yarn build"
+command = "hugo --gc --minify --forceSyncStatic"
 
 [build.environment]
-HUGO_VERSION = "0.115.1"
-GO_VERSION = "1.20.5"
+HUGO_VERSION = "0.160.0"
+HUGO_EXTENDED = "true"
+GO_VERSION = "1.21.0"
 HUGO_BASEURL = "/"

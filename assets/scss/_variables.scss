@@ -1,17 +1,22 @@
-// Color Variables (OFPPT brand palette — cf. ofppt.ma)
-$primary-color: #ff7800; // OFPPT orange (main accent / CTAs)
-$secondary-color: #1a1a37;
-$text-color: #5c5c77;
-$text-color-light: #8585a4;
-$text-color-dark: #1e1e4b;
-$body-color: #fff;
-$border-color: #ededf1;
+// Color palette requested for the redesign: green, blue, and gray
+$primary-color: #2e9f6d;
+$primary-dark: #207d58;
+$secondary-color: #1e3a5f;
+$secondary-color-soft: #46627d;
+$text-color: #536579;
+$text-color-light: #7f8ea1;
+$text-color-dark: #132238;
+$body-color: #edf3f5;
+$surface-color: #ffffff;
+$border-color: #dfe7eb;
 $black: #000;
 $white: #fff;
-$light: #f8f9fe;
-$gray: #f8f8f8;
+$light: #f5f8fa;
+$gray: #e7edf1;
+$success-soft: #ebfaf3;
+$accent-soft: #edf5ff;
 
 // Font Variables
-$primary-font: 'Poppins', sans-serif;
-$secondary-font: 'Montserrat', sans-serif;
+$primary-font: 'Inter', sans-serif;
+$secondary-font: 'Manrope', sans-serif;
 $icon-font: 'themify';

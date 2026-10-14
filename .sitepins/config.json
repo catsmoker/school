@@ -1,11 +1,11 @@
 {
-  "media": "exampleSite/assets/images",
-  "content": "exampleSite/content",
+  "media": "assets/images",
+  "content": "content",
   "code": "layouts",
   "arrangement": [],
-  "public": "exampleSite/static",
+  "public": "static",
   "configs": [
-    "exampleSite/config/_default"
+    "config/_default"
   ],
   "custom-commit": false
 }

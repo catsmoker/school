@@ -1,29 +1,30 @@
 /* Button style */
 .btn {
-  font-size: 16px;
+  font-size: 15px;
   font-family: $primary-font;
   text-transform: capitalize;
-  padding: 15px 40px;
-  border-radius: 0;
-  font-weight: 500;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-weight: 700;
   border: 0;
   position: relative;
   z-index: 1;
   transition: .2s ease;
   overflow: hidden;
   white-space: nowrap;
+  letter-spacing: 0.01em;
 
   &::before {
     position: absolute;
     content: "";
-    height: 80%;
+    height: 100%;
     width: 100%;
     left: 0;
-    bottom: 10%;
+    top: 0;
     z-index: -1;
     transition: transform .2s ease-in-out;
-    transform-origin: top;
-    transform: scaleY(0);
+    transform-origin: left;
+    transform: scaleX(0);
   }
 
   &:active,
@@ -35,28 +36,29 @@
     box-shadow: none !important;
 
     &::before {
-      transform: scaleY(1);
-      transform-origin: bottom;
+      transform: scaleX(1);
+      transform-origin: right;
     }
   }
 }
 
 .btn-sm {
   font-size: 14px;
-  padding: 10px 35px;
+  padding: 10px 24px;
 }
 
 .btn-xs {
   font-size: 12px;
-  padding: 5px 15px;
+  padding: 6px 16px;
 }
 
 .btn-primary {
   color: $white;
-  background-color: $primary-color;
+  background: linear-gradient(135deg, $primary-color 0%, $primary-dark 100%);
+  box-shadow: 0 12px 28px rgba(255, 122, 26, 0.26);
 
   &::before {
-    background-color: $white;
+    background-color: rgba(255,255,255,0.18);
   }
 
   &:active,
@@ -64,9 +66,9 @@
   &.focus,
   &:focus,
   &.active {
-    color: $primary-color !important;
-    background-color: darken($color: $primary-color, $amount: 10) !important;
-    border-color: darken($color: $primary-color, $amount: 10) !important;
+    color: $white !important;
+    background: linear-gradient(135deg, darken($primary-color, 8%) 0%, $primary-dark 100%) !important;
+    border-color: darken($primary-color, 8%) !important;
   }
 }
 
@@ -76,7 +78,7 @@
   border: 1px solid $primary-color;
 
   &::before {
-    background-color: $white;
+    background-color: rgba($primary-color, 0.08);
   }
 
   &:active,
@@ -85,7 +87,7 @@
   &:focus,
   &.active {
     color: $primary-color !important;
-    background-color: $primary-color !important;
+    background-color: rgba($primary-color, 0.08) !important;
     border-color: $primary-color !important;
   }
 }

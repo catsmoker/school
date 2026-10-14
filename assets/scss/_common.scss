@@ -4,8 +4,8 @@ body {
 }
 
 ::selection {
-  background: lighten($color: $primary-color, $amount: 10);
-  color: $white;
+  background: rgba($primary-color, 0.25);
+  color: $text-color-dark;
 }
 
 /* preloader */
@@ -16,7 +16,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff; // OFPPT white (was theme yellow #FFDC11)
+  background: linear-gradient(135deg, #fffaf5 0%, #fff 100%);
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -91,6 +91,18 @@ a h4{
 
   &-title {
     margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 76px;
+      height: 4px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, $primary-color, rgba($primary-color, 0.2));
+      margin-top: 12px;
+    }
   }
 }
 
@@ -130,7 +142,7 @@ a h4{
 }
 
 .bg-primary {
-  background: $primary-color !important;
+  background: linear-gradient(135deg, $primary-color 0%, #3aa97d 100%) !important;
 }
 
 .bg-secondary {
@@ -138,7 +150,7 @@ a h4{
 }
 
 .bg-gray {
-  background: $gray;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef3f8 100%);
 }
 
 .text-primary {

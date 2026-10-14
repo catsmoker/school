@@ -1,18 +1,8 @@
 #!/bin/bash
 
 # default versions
-NODE_VERSION='20.10.0';
 GO_VERSION='1.24.1';
 HUGO_VERSION='0.160.0';
-
-# install Node.js
-# echo "Installing Node.js $NODE_VERSION..."
-# curl -sSOL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}.tar.gz
-# tar -xzf node-v${NODE_VERSION}.tar.gz
-# export PATH=$PATH:/usr/local/bin
-# rm -rf node-v${NODE_VERSION}.tar.gz
-
-echo "USING NODE VERSION: $(node -v)"
 
 # install Go
 echo "Installing Go $GO_VERSION..."
@@ -30,14 +20,6 @@ mv hugo /usr/local/bin/
 rm -rf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 hugo version
 
-# project setup
-echo "Project setting up..."
-npm run project-setup
-
-# install dependencies
-echo "Installing project dependencies..."
-npm install
-
 # run the build command
 echo "Running the build command..."
-npm run build
+hugo --gc --minify --forceSyncStatic
