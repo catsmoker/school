@@ -1,71 +1,41 @@
 ---
-title: "JavaScript"
-date: 2019-07-06T15:27:17+06:00
+title: "Électromécanique des Systèmes Automatisés"
+date: 2026-09-01T09:00:00+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Technicien Spécialisé en Électromécanique des Systèmes Automatisés : maintenance industrielle, automatismes et robotique. 2 ans d'ateliers pratiques."
 # course thumbnail
 image: "images/courses/course-4.jpg"
 # taxonomy
-category: "Programming"
+category: "Industrie"
 # teacher
-teacher: "Devid Luis"
+teacher: "Karim Tazi"
 # duration
-duration: "06 mois"
+duration: "2 ans"
 # weekly
-weekly: "03 heures"
+weekly: "30 heures"
 # course fee
-fee: "À partir de 699$"
+fee: "950 DH / an"
 # apply url
-apply_url : "#"
+apply_url : "contact/"
 # type
 type: "course"
 ---
 
+### À propos de la formation
 
-### À propos du cours
+Cette filière forme les techniciens qui font tourner l'industrie : électricité, mécanique, pneumatique, automates programmables et maintenance préventive. Les ateliers reproduisent des lignes de production réelles, avec des stages en usine.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.</p>
+### Conditions d'accès
 
-### Prérequis
+* Baccalauréat scientifique ou technique.
+* Réussite au concours d'accès (tests + entretien).
+* Goût du travail manuel et de la technique.
 
+### Débouchés
 
-
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
-
-### Comment postuler
-
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-
-
-### Frais et financement
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+* Technicien de maintenance dans l'industrie et l'agroalimentaire.
+* Monteur-câbleur, technicien en automatismes.
+* Poursuite vers une Licence en génie industriel.

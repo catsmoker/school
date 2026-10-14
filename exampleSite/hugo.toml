@@ -1,14 +1,14 @@
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo.png" # TODO: replace with official OFPPT logo (www.ofppt.ma)
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
-# contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@educenter.com"
+description = "OFPPT — Office de la Formation Professionnelle et de la Promotion du Travail. La voie de l'avenir : formations professionnelles dans tout le Maroc."
+author = "OFPPT"
+# contact info — official OFPPT HQ (ofppt.ma/contact-us)
+address = "Intersection Route Nationale n°11 et Route BO 50, BP 40207 / 20270 Sidi Maârouf - Casablanca, Maroc"
+mobile = "+212 (05) 22 63 44 44"
+email = "contact@ofppt.ma"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -100,12 +100,12 @@ enable = true
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
 
-# google map
+# google map — OFPPT HQ, Sidi Maârouf, Casablanca
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "33.5530"
+map_longitude = "-7.5898"
 map_marker = "images/marker.png" # marker size 37*55 px
 
 # cookies
@@ -117,24 +117,24 @@ expire_days = 2
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/ofppt.page.officielle/"
 
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/OFPPT_Officiel"
 
 [[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.instagram.com/ofppt.officiel/"
 
 [[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/c/ofpptchaineofficielle"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/company/ofpptpageofficielle/"

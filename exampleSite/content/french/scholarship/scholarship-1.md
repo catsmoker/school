@@ -1,17 +1,17 @@
 ---
-title: "GÉNIE CHIMIQUE"
+title: "Bourse Minhaty"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # scholarship image
 image: "images/scholarship/scholarship-item-1.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Bourse Minhaty : conditions, montants et démarches pour les stagiaires Technicien Spécialisé issus de milieux modestes."
 ---
 
-* instituts
-* Recherche intelligemment affiliée
-* Accès numérique aux bourses d’étude
-* Catalyse intelligente
-* Portail vers une bibliothèque intelligente
-* Programmes de recherche intelligente
+* Bourse nationale d'environ 6 300 DH par an, versée en deux fois
+* Réservée aux stagiaires du niveau Technicien Spécialisé
+* Attribuée sur critères sociaux (revenus de la famille)
+* Demande en ligne puis dossier papier à l'établissement
+* Cumulable avec les aides au transport régionales
+* Renouvelée chaque année en cas de réussite

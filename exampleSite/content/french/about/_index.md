@@ -1,23 +1,16 @@
 ---
-title: "À propos de nous"
+title: "À propos de l'OFPPT"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # about image
 image: "images/about/about-page.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "OFPPT — Office de la Formation Professionnelle et de la Promotion du Travail. Premier opérateur public marocain de formation depuis 1974."
 ---
 
-## À propos de notre parcours
+## À propos de l'OFPPT
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,
-adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur,
-aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique.
-Et amet magni facilis vero corporis quos.
+L'Office de la Formation Professionnelle et de la Promotion du Travail (OFPPT), créé en 1974, est le premier opérateur public marocain de formation. Sa mission : anticiper les besoins du marché du travail et former les jeunes à l'emploi — La voie de l'avenir.
 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum, dolor sit amet consectetur
-adipisicing elit. Ipsum a, facere fugit error accusamus est officiis vero in, nostrum laboriosam corrupti
-explicabo, cumque repudiandae deleniti perspiciatis quae consectetur enim. Laboriosam!
+Des ISTA aux Cités des Métiers et des Compétences, l'OFPPT gère des centaines d'établissements dans les 12 régions, alliant ateliers pratiques, stages en entreprise et partenariats étroits avec les employeurs.

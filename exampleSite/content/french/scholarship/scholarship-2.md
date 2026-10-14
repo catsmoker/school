@@ -1,17 +1,17 @@
 ---
-title: "GÉNIE CHIMIQUE"
+title: "Bourse de mérite OFPPT"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # scholarship image
 image: "images/scholarship/scholarship-item-2.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "La bourse de mérite récompense les majors de promotion et les parcours d'excellence dans les établissements OFPPT."
 ---
 
-* instituts
-* Recherche intelligemment affiliée
-* Accès numérique aux bourses d’étude
-* Catalyse intelligente
-* Portail vers une bibliothèque intelligente
-* Programmes de recherche intelligente
+* Récompense les majors et les mentions Très Bien
+* Montant et avantages fixés par chaque direction régionale
+* Attribuée sur résultats du premier semestre
+* Encourage l'excellence et l'assiduité
+* Remise officielle lors des cérémonies de fin d'année
+* Les lauréats deviennent ambassadeurs de leur filière

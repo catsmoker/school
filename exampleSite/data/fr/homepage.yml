@@ -4,8 +4,8 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "OFPPT — La voie de l'avenir"
+      content : "Premier opérateur public marocain de formation professionnelle depuis 1974. Des formations pratiques et orientées emploi, dans tout le Royaume."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -15,25 +15,25 @@ slider:
         link : "contact/"
 
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Des formations pour de vrais métiers"
+      content : "Technicien, Technicien Spécialisé, Qualification : numérique, industrie, hôtellerie, santé, BTP, gestion et bien plus."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "Découvrir"
         link : "contact/"
 
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Étudiez partout au Maroc"
+      content : "Des centaines d'établissements — ISTA et Cités des Métiers et des Compétences — et les services en ligne sur www.ofppt.ma."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
+        label : "Nous contacter"
         link : "contact/"
 
 
@@ -43,35 +43,35 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Bourses académiques"
+    - name : "Formations professionnelles"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Technicien, Technicien Spécialisé, Qualification et Brevets, en phase avec les besoins du marché du travail."
 
     # feature item loop
-    - name : "Notre bureau"
+    - name : "Avis et concours"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Dates d'admission, concours d'accès, résultats et appels à candidature dans toutes les régions OFPPT."
 
     # feature item loop
-    - name : "Nos accomplissements"
+    - name : "Notre réseau"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "ISTA, ISM et Cités des Métiers et des Compétences dans les 12 régions du Maroc."
 
     # feature item loop
     - name : "Admission"
       icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Candidatures sur www.ofppt.ma ou via contact@ofppt.ma — tél. +212 (05) 22 63 44 44."
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "À propos d’Educenter"
+  title : "À propos de l'OFPPT"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
+  content : "L'Office de la Formation Professionnelle et de la Promotion du Travail (OFPPT), créé en 1974, est le premier opérateur public marocain de formation. Il anticipe les besoins du marché et forme les jeunes aux métiers de l'industrie, du numérique, du tourisme, de la santé, de l'agriculture et des services.
 
 
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  Avec des campus dans chaque région — dont les Cités des Métiers et des Compétences — l'OFPPT allie ateliers pratiques, stages en entreprise et équipements modernes pour préparer les stagiaires à l'emploi. "
   button:
     enable : true
     label : "En savoir plus"
@@ -81,17 +81,17 @@ about:
 ############################# Course ################################
 course:
   enable : true
-  title : "Notre cours"
+  title : "Nos formations"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Cliquez pour vous joindre à l’atelier avancé"
-  title : "Apprentissage en réseautique avancée"
+  subtitle : "Admissions ouvertes — rentrée de la formation professionnelle"
+  title : "Construisez votre avenir avec l'OFPPT"
   button:
     enable : true
-    label : "Se joindre"
+    label : "Nous rejoindre"
     link : "contact/"
 
 
@@ -100,13 +100,12 @@ success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
   title : "Histoires de réussites"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+  content : "Des ateliers des ISTA aux Cités des Métiers et des Compétences, les lauréats OFPPT font tourner les usines, hôtels, hôpitaux, chantiers et entreprises tech du Maroc. Apprentissage par la pratique, formateurs experts et partenariats employeurs : la formation mène à l'emploi.
             
             
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  La voie de l'avenir — depuis 1974."
   # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  video_link : "https://www.youtube.com/c/ofpptchaineofficielle"
 
 
 ############################# event ################################
@@ -121,20 +120,20 @@ funfacts:
   enable : true
   funfact_item:
     # funfact item loop
-    - name : "ENSEIGNANTS"
-      count : "60"
+    - name : "FORMATEURS & STAFF"
+      count : "10000"
 
     # funfact item loop
-    - name : "COURS"
-      count : "50"
+    - name : "FORMATIONS"
+      count : "300"
 
     # funfact item loop
-    - name : "ÉTUDIANTS"
-      count : "1000"
+    - name : "STAGIAIRES PAR AN"
+      count : "500000"
 
     # funfact item loop
-    - name : "CLIENTS SATISFAITS"
-      count : "1400"
+    - name : "ÉTABLISSEMENTS"
+      count : "400"
 
 # funfact is for about page
 

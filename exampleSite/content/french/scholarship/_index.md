@@ -1,21 +1,16 @@
 ---
-title: "Bourses d’études"
+title: "Bourses d'études"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # image
 image: "images/about/about-page.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Bourse Minhaty, mérite et aides sociales : les dispositifs qui financent votre formation à l'OFPPT."
 ---
 
-## NOUVELLES SUR LES BOURSES D’ÉTUDE
+## LES BOURSES POUR FINANCER VOTRE FORMATION
 
-**_NOS CAMPUS SONT DES LABORATOIRES VIVANTS DURABLES._**
+**_SE FORMER À L'OFPPT EST À LA PORTÉE DE TOUS._**
 
-Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliquauis aute irure dolor.
-in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor, sit
-amet consectetur adipisicing elit. Quas cum ut ab nesciunt distinctio maxime expedita fugit laborum? Aliquid,
-quia.
+Minhaty, bourses de mérite et aides sociales : plusieurs dispositifs aident les stagiaires à financer leurs études, du transport au logement. Renseignez-vous auprès de votre établissement ou de la direction régionale pour constituer votre dossier.

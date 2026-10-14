@@ -1,45 +1,35 @@
 ---
-title: "Conférence sur les médias sociaux et l’économie béhaviorale"
-date: 2019-07-06T15:27:17+06:00
+title: "Journée portes ouvertes — ISTA Casablanca"
+date: 2026-11-15T09:00:00+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Visitez les ateliers, rencontrez les formateurs et découvrez les filières lors de la journée portes ouvertes de l'ISTA Casablanca."
 # Event image
 image: "images/events/event-1.jpg"
 # location
-location: "Dhanmondi, Dhaka"
+location: "ISTA, Casablanca"
 # entry fee
-fee: "À partir de 699$"
+fee: "Entrée gratuite"
 # apply url
-apply_url : "#"
+apply_url : "contact/"
 # event speaker
 speaker:
   # speaker loop
-  - name : "Jack Mastio"
+  - name : "Yasmine El Fassi"
     image : "images/event-speakers/speaker-1.jpg"
-    designation : "Enseignant"
+    designation : "Formatrice"
 
   # speaker loop
-  - name : "John Doe"
+  - name : "Karim Tazi"
     image : "images/event-speakers/speaker-2.jpg"
-    designation : "Enseignant"
-
-  # speaker loop
-  - name : "Randy Luis"
-    image : "images/event-speakers/speaker-3.jpg"
-    designation : "Enseignant"
-
-  # speaker loop
-  - name : "Alfred Jin"
-    image : "images/event-speakers/speaker-4.jpg"
-    designation : "Enseignant"
+    designation : "Formateur"
 
 # type
 type: "event"
 ---
 
-### À propos de l’événement
+### À propos de l'événement
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Une journée pour tout découvrir : visite guidée des ateliers et laboratoires, démonstrations des stagiaires, stands d'information sur chaque filière et aide à la préinscription en ligne. Formateurs et lauréats répondent à toutes vos questions, de 9h à 16h.

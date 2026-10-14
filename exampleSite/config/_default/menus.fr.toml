@@ -6,7 +6,7 @@ url = "about/"
 weight = 1
 
 [[main]]
-name = "Cours"
+name = "Formations"
 url = "course/"
 weight = 2
 
@@ -17,34 +17,34 @@ hasChildren = true
 
   [[main]]
   parent = "Pages"
-  name = "teacher"
+  name = "Formateurs"
   url = "teacher/"
 
   [[main]]
   parent = "Pages"
-  name = "notice"
+  name = "Avis"
   url = "notice/"
 
   [[main]]
   parent = "Pages"
-  name = "Évènement"
+  name = "Événements"
   url = "event/"
 
   [[main]]
   parent = "Pages"
-  name = "Cursus"
+  name = "Bourses"
   url = "scholarship/"
 
   [[main]]
   parent = "Pages"
-  name = "research"
+  name = "Recherche"
   url = "research/"
-  
+
 [[main]]
-name = "blog"
+name = "Actualités"
 url = "blog/"
 weight = 4
-  
+
 [[main]]
 name = "Contact"
 url = "contact/"
@@ -54,21 +54,21 @@ weight = 5
 # footer menu
 
 [[footer]]
-name = "teacher"
+name = "Formateurs"
 url = "teacher/"
 
 [[footer]]
-name = "notice"
+name = "Avis"
 url = "notice/"
 
 [[footer]]
-name = "event"
+name = "Événements"
 url = "event/"
 
 [[footer]]
-name = "scholarship"
+name = "Bourses"
 url = "scholarship/"
 
 [[footer]]
-name = "research"
+name = "Recherche"
 url = "research/"

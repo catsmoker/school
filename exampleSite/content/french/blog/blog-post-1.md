@@ -1,32 +1,28 @@
 ---
-title: "Dioramas de boîtes coupées élégantes"
-date: 2019-07-06T15:27:17+06:00
+title: "Rentrée 2026-2027 : l'OFPPT accueille ses nouveaux stagiaires"
+date: 2026-09-08T10:00:00+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "C'est la rentrée à l'OFPPT : des centaines de milliers de stagiaires rejoignent les ISTA et les Cités des Métiers et des Compétences."
 # post thumbnail
 image: "images/blog/post-1.jpg"
 # post author
-author: "John Doe"
+author: "Abdolah Anjar"
 # taxonomy
-categories: ["Automation System"]
-tags: ["Advice", "Automation"]
+categories: ["Actualités"]
+tags: ["Rentrée", "Stagiaires"]
 # type
 type: "post"
 ---
 
-### The standard Lorem Ipsum passage, used since the 1500s
+### Une rentrée sous le signe de l'avenir
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Comme chaque mois de septembre, les établissements OFPPT ont ouvert leurs portes aux nouveaux stagiaires. Ateliers, laboratoires et salles informatiques tournent déjà à plein régime, de Casablanca à Oujda.
 
+### Ce qui attend les nouveaux
 
-#### 1914 translation by H. Rackham
-But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, **the master-builder** of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+Les premières semaines sont consacrées à l'accueil : visite des ateliers, présentation des formateurs, remise des plannings et des équipements. Les délégués de classe sont élus et les clubs — robotique, sport, culture — recrutent déjà.
 
-> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue
-
-#### Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+> « Bienvenue à La voie de l'avenir : travaillez dur, vos formateurs sont là pour vous mener vers l'emploi. »

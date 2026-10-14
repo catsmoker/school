@@ -1,71 +1,41 @@
 ---
-title: "Vlogging"
-date: 2019-07-06T15:27:17+06:00
+title: "Comptabilité des Entreprises"
+date: 2026-09-01T09:00:00+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Technicien en Comptabilité des Entreprises : saisie, paie, fiscalité et logiciels comptables. 2 ans pour un métier recherché par toutes les entreprises."
 # course thumbnail
 image: "images/courses/course-6.jpg"
 # taxonomy
-category: "Photography"
+category: "Comptabilité"
 # teacher
-teacher: "Duis Rio"
+teacher: "Mehdi Ouazzani"
 # duration
-duration: "06 mois"
+duration: "2 ans"
 # weekly
-weekly: "03 heures"
+weekly: "30 heures"
 # course fee
-fee: "À partir de 699$"
+fee: "850 DH / an"
 # apply url
-apply_url : "#"
+apply_url : "contact/"
 # type
 type: "course"
 ---
 
+### À propos de la formation
 
-### À propos du cours
+Le Technicien comptable tient les livres des entreprises : écritures, déclarations fiscales, paie et rapprochements bancaires, sur logiciels professionnels. Un stage en cabinet ou en entreprise valide la formation.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.</p>
+### Conditions d'accès
 
-### Prérequis
+* Niveau Bac ou diplôme de Qualification.
+* Réussite au concours d'accès (tests + entretien).
+* Rigueur, discrétion et aisance avec les chiffres.
 
+### Débouchés
 
-
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
-
-### Comment postuler
-
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-
-
-### Frais et financement
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+* Aide-comptable en cabinet ou en entreprise.
+* Agent de paie, employé des services financiers.
+* Poursuite vers le TS en Gestion des Entreprises.

@@ -1,71 +1,41 @@
 ---
-title: "Photographie"
-date: 2019-07-06T15:27:17+06:00
+title: "Développement Digital"
+date: 2026-09-01T09:00:00+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Technicien Spécialisé en Développement Digital : web, mobile et bases de données. Formation pratique de 2 ans dans les ISTA et Cités des Métiers."
 # course thumbnail
 image: "images/courses/course-1.jpg"
 # taxonomy
-category: "Photography"
+category: "Numérique"
 # teacher
-teacher: "Clark Malik"
+teacher: "Yasmine El Fassi"
 # duration
-duration: "06 mois"
+duration: "2 ans"
 # weekly
-weekly: "03 heures"
+weekly: "30 heures"
 # course fee
-fee: "À partir de 699$"
+fee: "950 DH / an"
 # apply url
-apply_url : "#"
+apply_url : "contact/"
 # type
 type: "course"
 ---
 
+### À propos de la formation
 
-### À propos du cours
+Le Technicien Spécialisé en Développement Digital conçoit des sites web, des applications mobiles et des solutions logicielles. Programmation, bases de données, frameworks modernes et gestion de projet : la formation est à 70 % pratique, en ateliers équipés et sur projets réels.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+### Conditions d'accès
 
-### Prérequis
+* Baccalauréat scientifique, technique ou professionnel.
+* Réussite au concours d'accès (tests + entretien).
+* Motivation pour les métiers du numérique.
 
+### Débouchés
 
-
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
-
-### Comment postuler
-
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-
-
-### Frais et financement
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+* Développeur web et mobile dans les ESN et startups.
+* Intégrateur, technicien support applicatif.
+* Poursuite vers une Licence professionnelle ou le freelance.
