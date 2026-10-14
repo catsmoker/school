@@ -41,12 +41,9 @@ jobs:
           hugo version
 
       - name: Install Go
-        run: |
-          curl -LO "https://dl.google.com/go/go${{ env.GO_VERSION }}.linux-amd64.tar.gz"
-          sudo tar -C /usr/local -xzf go${{ env.GO_VERSION }}.linux-amd64.tar.gz
-          echo "export PATH=$PATH:/usr/local/go/bin" >> $GITHUB_ENV
-          rm go${{ env.GO_VERSION }}.linux-amd64.tar.gz
-          go version
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: "exampleSite/go.mod"
 
       - name: Setup Project
         run: npm run project-setup
