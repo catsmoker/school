@@ -52,7 +52,11 @@ jobs:
         run: npm install
 
       - name: Publish to GitHub Pages
-        run: npm run build -- --baseURL https://catsmoker.github.io/school/
+        # NOTE: project-setup flattens the theme into a root site, so call hugo
+        # directly (npm run build can't take extra CLI flags — they land after `fi`).
+        run: |
+          export HUGO_CACHEDIR=${TMPDIR:-/tmp}/educenter-hugo-cache GOMODCACHE=${TMPDIR:-/tmp}/educenter-gomodcache GOCACHE=${TMPDIR:-/tmp}/educenter-gocache
+          hugo --gc --minify --forceSyncStatic --baseURL https://catsmoker.github.io/school/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
