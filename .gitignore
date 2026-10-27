@@ -10,7 +10,9 @@ node_modules
 builds
 package-lock.json
 public
+exampleSite/public
 resources
+exampleSite/resources
 .hugo_build.lock
 jsconfig.json
 hugo_stats.json
