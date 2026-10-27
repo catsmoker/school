@@ -5,8 +5,8 @@
 
 
 <p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.115.1" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.115.1&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.160.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.160.0%20(extended)&color=f00&logo=hugo" />
   </a>
 
   <a href="https://github.com/themefisher/educenter-hugo/blob/master/LICENSE">
@@ -32,7 +32,7 @@
 ## 📌Key Features
 
 -  📄 19+ Pre-designed pages
--  📚Multiple language support (Fr, En) 
+-  📚Multiple language support (Fr) 
 - 〽️Google analytics  support 
 -  📂CSS and Js bundle with hugo pipe
 -  🔧Netlify settings predefine
@@ -74,16 +74,24 @@
 
 ## 🛠️Local development
 
+This repo is a Hugo theme — `exampleSite/` is the demo site.
+**Do not run `npm run project-setup`** for theme work: it converts the theme
+into a standalone site and destroys the theme layout (deploy configs run it
+automatically).
+
+Requires **Hugo Extended >= 0.160.0** (SCSS compilation). The npm scripts are
+bash-only; on Windows PowerShell/cmd use Git Bash, or run Hugo directly,
+e.g. `cd exampleSite && hugo server --themesDir ..`.
+
 ```bash
 # clone the repository
 git clone git@github.com:themefisher/educenter-hugo.git
-
-# setup project
-$ npm run project-setup
+cd educenter-hugo
 
 # Start local dev server
 $ npm run dev
 ```
+
 Or Check out [Full Documentation](https://docs.gethugothemes.com/educenter/?ref=github).
 
 
