@@ -1,10 +1,10 @@
 ---
-title: "Abdolah Anjar"
+title: "Service éditorial"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Abdolah Anjar — co-réalisateur de ce site vitrine OFPPT, projet scolaire."
-email: "abdolah.anjar@ofppt.ma"
+description : "Service éditorial de l'établissement : actualités, contenus et présentation des formations."
+email: "redaction@ecole-demo.ma"
 # portrait
 photo: ""
 social:
@@ -12,8 +12,6 @@ social:
     link : "#"
   - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
     link : "#"
-  - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
 ---
 
-Co-réalisateur de ce site vitrine dédié à l'OFPPT, dans le cadre d'un projet scolaire. Abdolah s'occupe des contenus, de l'actualité et de la présentation des formations.
+L'équipe éditoriale prépare les actualités, les contenus de formation et la présentation des filières de l'établissement.

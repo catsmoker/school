@@ -13,7 +13,7 @@ location: "ISTA, Marrakech"
 # entry fee
 fee: "Entrée gratuite"
 # apply url
-apply_url : "contact/"
+apply_url : "/apply/"
 # event speaker
 speaker:
   # speaker loop
@@ -22,9 +22,9 @@ speaker:
     designation : "Formatrice"
 
   # speaker loop
-  - name : "Abdolah Anjar"
+  - name : "Omar Benali"
     image : "images/event-speakers/speaker-4.jpg"
-    designation : "Invité"
+    designation : "Formateur"
 
 # type
 type: "event"

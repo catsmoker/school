@@ -9,7 +9,7 @@ description : "Tout savoir sur les concours d'accès OFPPT : préinscription en 
 # post thumbnail
 image: "images/blog/post-3.jpg"
 # post author
-author: "Abdolah Anjar"
+author: "Rédaction OFPPT"
 # taxonomy
 categories: ["Admissions"]
 tags: ["Concours", "Inscriptions"]

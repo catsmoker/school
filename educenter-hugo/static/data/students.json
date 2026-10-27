@@ -1,0 +1,168 @@
+{
+  "note": "Demo only — fake student accounts for a school project. No real personal data.",
+  "students": [
+    {
+      "id": "STU-2026-0001",
+      "email": "amine.benali@ecole-demo.ma",
+      "password": "demo123",
+      "name": "Amine Benali",
+      "avatar": "images/avatars/avatar-1.jpg",
+      "program": "Développement Digital",
+      "level": "Technicien Spécialisé (TS)",
+      "year": "2e année",
+      "campus": "ISTA Casablanca",
+      "points": 842,
+      "modules": [
+        "Développement Web",
+        "Bases de données",
+        "Applications mobiles",
+        "Gestion de projet"
+      ],
+      "grades": {
+        "Développement Web": 16,
+        "Bases de données": 14,
+        "Applications mobiles": 15,
+        "Gestion de projet": 17
+      },
+      "attendance": 88,
+      "announcements": [
+        { "title": "Rentrée universitaire", "date": "2026-09-01", "text": "La rentrée des TS Développement Digital a lieu le 1er septembre à 8h30 en amphi A." },
+        { "title": "Forum de l'emploi", "date": "2026-12-05", "text": "Rencontrez les recruteurs lors du forum de l'emploi et des stages à la Cité des Métiers de Casablanca." },
+        { "title": "Concours d'accès 2027", "date": "2027-01-20", "text": "Épreuves écrites et entretiens pour la session 2027. Convocation envoyée par e-mail." }
+      ],
+      "exams": [
+        { "module": "Développement Web", "date": "2026-12-12", "time": "09:00", "salle": "Salle 101" },
+        { "module": "Bases de données", "date": "2026-12-15", "time": "14:00", "salle": "Salle 204" },
+        { "module": "Applications mobiles", "date": "2026-12-17", "time": "10:00", "salle": "Lab info 3" }
+      ],
+      "documents": [
+        { "title": "Attestation d'inscription 2026-2027", "type": "Attestation", "date": "2026-09-10" },
+        { "title": "Relevé de notes — semestre 1", "type": "Relevé", "date": "2027-02-05" },
+        { "title": "Certificat de scolarité", "type": "Certificat", "date": "2026-10-01" }
+      ],
+      "messages": [
+        { "from": "Scolarité", "date": "2026-09-20", "subject": "Votre attestation est disponible", "text": "Vous pouvez télécharger votre attestation d'inscription dans Documents." },
+        { "from": "M. Benali (formateur)", "date": "2026-09-25", "subject": "Rendu du projet Web", "text": "N'oubliez pas de rendre votre projet de développement web avant le 5 octobre." }
+      ]
+    },
+    {
+      "id": "STU-2026-0002",
+      "email": "sarah.tazi@ecole-demo.ma",
+      "password": "demo123",
+      "name": "Sarah Tazi",
+      "avatar": "images/avatars/avatar-2.jpg",
+      "program": "Gestion des Entreprises",
+      "level": "Technicien (T)",
+      "year": "1re année",
+      "campus": "CMC Casablanca-Settat",
+      "points": 791,
+      "modules": ["Comptabilité", "Gestion commerciale", "Ressources humaines", "Bureautique"],
+      "grades": { "Comptabilité": 13, "Gestion commerciale": 15, "Ressources humaines": 14, "Bureautique": 16 },
+      "attendance": 82,
+      "announcements": [
+        { "title": "Rentrée universitaire", "date": "2026-09-01", "text": "La rentrée des T Gestion a lieu le 1er septembre à 8h30 en amphi B." },
+        { "title": "Forum de l'emploi", "date": "2026-12-05", "text": "Rencontrez les recruteurs lors du forum de l'emploi et des stages à la Cité des Métiers de Casablanca." }
+      ],
+      "exams": [
+        { "module": "Comptabilité", "date": "2026-12-10", "time": "14:00", "salle": "Salle 302" },
+        { "module": "Gestion commerciale", "date": "2026-12-14", "time": "09:00", "salle": "Salle 105" }
+      ],
+      "documents": [
+        { "title": "Attestation d'inscription 2026-2027", "type": "Attestation", "date": "2026-09-10" },
+        { "title": "Certificat de scolarité", "type": "Certificat", "date": "2026-10-01" }
+      ],
+      "messages": [
+        { "from": "Scolarité", "date": "2026-09-22", "subject": "Emploi du temps mis à jour", "text": "Votre emploi du temps a été mis à jour. Consultez-le dans l'espace étudiant." }
+      ]
+    },
+    {
+      "id": "STU-2026-0003",
+      "email": "karim.mansouri@ecole-demo.ma",
+      "password": "demo123",
+      "name": "Karim Mansouri",
+      "avatar": "images/avatars/avatar-3.jpg",
+      "program": "Électromécanique des Systèmes Automatisés",
+      "level": "Technicien Spécialisé (TS)",
+      "year": "2e année",
+      "campus": "ISTA Fès",
+      "points": 905,
+      "modules": ["Automatismes", "Maintenance industrielle", "Robotique", "Électricité"],
+      "grades": { "Automatismes": 17, "Maintenance industrielle": 15, "Robotique": 16, "Électricité": 14 },
+      "attendance": 91,
+      "announcements": [
+        { "title": "Rentrée universitaire", "date": "2026-09-01", "text": "La rentrée des TS Électromécanique a lieu le 1er septembre à 8h en atelier." },
+        { "title": "Visite usine", "date": "2026-11-10", "text": "Visite guidée d'une usine partenaire le 10 novembre. Inscription obligatoire auprès de la scolarité." }
+      ],
+      "exams": [
+        { "module": "Automatismes", "date": "2026-12-11", "time": "09:00", "salle": "Atelier A" },
+        { "module": "Maintenance industrielle", "date": "2026-12-13", "time": "14:00", "salle": "Atelier B" }
+      ],
+      "documents": [
+        { "title": "Attestation d'inscription 2026-2027", "type": "Attestation", "date": "2026-09-10" },
+        { "title": "Certificat de scolarité", "type": "Certificat", "date": "2026-10-01" }
+      ],
+      "messages": [
+        { "from": "Scolarité", "date": "2026-09-18", "subject": "Visite usine — 10 novembre", "text": "Pensez à vous inscrire pour la visite d'usine du 10 novembre." }
+      ]
+    },
+    {
+      "id": "STU-2026-0004",
+      "email": "ines.berrada@ecole-demo.ma",
+      "password": "demo123",
+      "name": "Inès Berrada",
+      "avatar": "images/avatars/avatar-4.jpg",
+      "program": "Cuisine — Qualification",
+      "level": "Qualification",
+      "year": "1re année",
+      "campus": "Institut d'Hôtellerie, Agadir",
+      "points": 765,
+      "modules": ["Gastronomie marocaine", "Pâtisserie", "Hygiène alimentaire", "Service en salle"],
+      "grades": { "Gastronomie marocaine": 15, "Pâtisserie": 14, "Hygiène alimentaire": 16, "Service en salle": 13 },
+      "attendance": 85,
+      "announcements": [
+        { "title": "Rentrée universitaire", "date": "2026-09-01", "text": "La rentrée en Qualification Cuisine a lieu le 1er septembre en cuisine pédagogique." },
+        { "title": "Salon des métiers THR", "date": "2027-02-10", "text": "Démonstrations culinaires et rencontres avec les grands hôtels à Agadir." }
+      ],
+      "exams": [
+        { "module": "Gastronomie marocaine", "date": "2026-12-08", "time": "10:00", "salle": "Cuisine 1" },
+        { "module": "Pâtisserie", "date": "2026-12-10", "time": "09:00", "salle": "Cuisine 2" }
+      ],
+      "documents": [
+        { "title": "Attestation d'inscription 2026-2027", "type": "Attestation", "date": "2026-09-10" }
+      ],
+      "messages": [
+        { "from": "Scolarité", "date": "2026-09-21", "subject": "Tenue de cuisine", "text": "Merci de venir avec votre tenue de cuisine complète à chaque TP." }
+      ]
+    },
+    {
+      "id": "STU-2026-0005",
+      "email": "youssef.idrissi@ecole-demo.ma",
+      "password": "demo123",
+      "name": "Youssef Idrissi",
+      "avatar": "images/avatars/avatar-5.jpg",
+      "program": "Infographie",
+      "level": "Technicien (T)",
+      "year": "2e année",
+      "campus": "ISTA Marrakech",
+      "points": 818,
+      "modules": ["Design graphique", "PAO", "Photographie", "Montage vidéo"],
+      "grades": { "Design graphique": 16, "PAO": 15, "Photographie": 14, "Montage vidéo": 17 },
+      "attendance": 87,
+      "announcements": [
+        { "title": "Rentrée universitaire", "date": "2026-09-01", "text": "La rentrée des T Infographie a lieu le 1er septembre en salle Mac." },
+        { "title": "Portfolio", "date": "2026-11-20", "text": "Rendu des portfolios finaux le 20 novembre. Présentation orale obligatoire." }
+      ],
+      "exams": [
+        { "module": "Design graphique", "date": "2026-12-09", "time": "14:00", "salle": "Salle Mac 1" },
+        { "module": "Montage vidéo", "date": "2026-12-12", "time": "10:00", "salle": "Salle Mac 2" }
+      ],
+      "documents": [
+        { "title": "Attestation d'inscription 2026-2027", "type": "Attestation", "date": "2026-09-10" },
+        { "title": "Certificat de scolarité", "type": "Certificat", "date": "2026-10-01" }
+      ],
+      "messages": [
+        { "from": "Scolarité", "date": "2026-09-19", "subject": "Rendu portfolio", "text": "Votre portfolio est à rendre le 20 novembre. Bonne continuation !" }
+      ]
+    }
+  ]
+}

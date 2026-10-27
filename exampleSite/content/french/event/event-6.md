@@ -13,7 +13,7 @@ location: "Institut d'Hôtellerie, Agadir"
 # entry fee
 fee: "Entrée gratuite"
 # apply url
-apply_url : "contact/"
+apply_url : "/apply/"
 # event speaker
 speaker:
   # speaker loop

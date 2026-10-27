@@ -13,7 +13,7 @@ location: "Cité des Métiers, Fès"
 # entry fee
 fee: "Sur invitation"
 # apply url
-apply_url : "contact/"
+apply_url : "/apply/"
 # event speaker
 speaker:
   # speaker loop
@@ -22,9 +22,9 @@ speaker:
     designation : "Formateur"
 
   # speaker loop
-  - name : "Moaad"
+  - name : "Salma Idrissi"
     image : "images/event-speakers/speaker-2.jpg"
-    designation : "Invité"
+    designation : "Formatrice"
 
 # type
 type: "event"

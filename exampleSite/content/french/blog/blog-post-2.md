@@ -9,7 +9,7 @@ description : "Les Cités des Métiers et des Compétences maillent les 12 régi
 # post thumbnail
 image: "images/blog/post-2.jpg"
 # post author
-author: "Moaad"
+author: "Rédaction OFPPT"
 # taxonomy
 categories: ["Campus"]
 tags: ["Infrastructures", "Régions"]

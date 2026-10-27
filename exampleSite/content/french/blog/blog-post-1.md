@@ -9,7 +9,7 @@ description : "C'est la rentrée à l'OFPPT : des centaines de milliers de stagi
 # post thumbnail
 image: "images/blog/post-1.jpg"
 # post author
-author: "Abdolah Anjar"
+author: "Rédaction OFPPT"
 # taxonomy
 categories: ["Actualités"]
 tags: ["Rentrée", "Stagiaires"]

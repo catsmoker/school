@@ -1,10 +1,10 @@
 ---
-title: "Moaad"
+title: "Service orientation"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Moaad — co-réalisateur de ce site vitrine OFPPT, projet scolaire."
-email: "moaad@ofppt.ma"
+description : "Service orientation : accompagnement des stagiaires dans leur projet professionnel et choix de filière."
+email: "orientation@ecole-demo.ma"
 # portrait
 photo: ""
 social:
@@ -12,8 +12,6 @@ social:
     link : "#"
   - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
     link : "#"
-  - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
 ---
 
-Co-réalisateur de ce site vitrine dédié à l'OFPPT, dans le cadre d'un projet scolaire. Moaad s'occupe du design, de l'adaptation aux couleurs de l'Office et de la mise en page.
+Le service orientation accompagne chaque stagiaire dans son projet professionnel et l'aide à choisir la filière adaptée.

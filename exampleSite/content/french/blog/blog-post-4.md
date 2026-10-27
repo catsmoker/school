@@ -9,7 +9,7 @@ description : "Stages, alternance et premiers emplois : comment les partenariats
 # post thumbnail
 image: "images/blog/post-2.jpg"
 # post author
-author: "Moaad"
+author: "Rédaction OFPPT"
 # taxonomy
 categories: ["Entreprises"]
 tags: ["Stages", "Emploi"]

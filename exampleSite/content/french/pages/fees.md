@@ -1,0 +1,97 @@
+---
+title: "Frais de scolarité"
+date: 2026-10-01T09:00:00+01:00
+draft: false
+url: "/fees/"
+bodypartial: "fees-page"
+bg_image: "images/backgrounds/page-title.jpg"
+description : "Frais de scolarité, frais d'inscription et échéancier de paiement par filière et par niveau. Démo uniquement."
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="card border-primary rounded-0 hover-shadow mb-5">
+          <div class="card-body p-4 p-md-5">
+            <h2 class="card-title text-center mb-4">Frais de scolarité — année 2026-2027</h2>
+            <p class="text-center text-muted mb-4">Montants indicatifs à titre de démonstration. Paiement en ligne sur la page suivante (démo).</p>
+
+            <table class="table table-bordered text-center">
+              <thead class="bg-primary text-white">
+                <tr>
+                  <th>Filière</th>
+                  <th>Niveau</th>
+                  <th>Frais d'inscription</th>
+                  <th>Scolarité / an</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Développement Digital</td>
+                  <td>TS</td>
+                  <td>300 DH</td>
+                  <td>950 DH</td>
+                  <td><strong>1 250 DH</strong></td>
+                </tr>
+                <tr>
+                  <td>Gestion des Entreprises</td>
+                  <td>T</td>
+                  <td>250 DH</td>
+                  <td>850 DH</td>
+                  <td><strong>1 100 DH</strong></td>
+                </tr>
+                <tr>
+                  <td>Infographie</td>
+                  <td>T</td>
+                  <td>250 DH</td>
+                  <td>850 DH</td>
+                  <td><strong>1 100 DH</strong></td>
+                </tr>
+                <tr>
+                  <td>Électromécanique</td>
+                  <td>TS</td>
+                  <td>300 DH</td>
+                  <td>950 DH</td>
+                  <td><strong>1 250 DH</strong></td>
+                </tr>
+                <tr>
+                  <td>Art Culinaire — Cuisine</td>
+                  <td>Qualification</td>
+                  <td>200 DH</td>
+                  <td>750 DH</td>
+                  <td><strong>950 DH</strong></td>
+                </tr>
+                <tr>
+                  <td>Comptabilité des Entreprises</td>
+                  <td>T</td>
+                  <td>250 DH</td>
+                  <td>850 DH</td>
+                  <td><strong>1 100 DH</strong></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="alert alert-info mt-4">
+              <strong>Échéancier de paiement :</strong>
+              <ul class="mb-0">
+                <li>30 % à l'inscription (frais d'inscription + premier versement de scolarité).</li>
+                <li>30 % au début du second semestre.</li>
+                <li>40 % avant la fin de l'année scolaire.</li>
+              </ul>
+            </div>
+
+            <div class="text-center mt-4">
+              <a href="/apply/" class="btn btn-primary btn-lg px-5">Je dépose ma candidature</a>
+              <a href="/fees/" class="btn btn-outline-primary btn-lg px-5 ml-3">Retour aux frais</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="text-muted small">Démo scolaire — aucun paiement réel n'est effectué.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

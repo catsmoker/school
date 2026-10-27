@@ -1,0 +1,130 @@
+---
+title: "Espace étudiant — Accueil"
+date: 2026-10-01T09:00:00+01:00
+draft: false
+url: "/dashboard/"
+bodypartial: "dashboard-page"
+bg_image: "images/backgrounds/page-title.jpg"
+description : "Tableau de bord étudiant : avatar, notes, assiduité, emploi du temps et plus. Données démo."
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <nav>
+          <ol class="breadcrumb bg-transparent p-0 mb-0">
+            <li class="breadcrumb-item active">Tableau de bord</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Student header -->
+    <div class="row mb-4">
+      <div class="col-md-3">
+        <div class="text-center">
+          <div id="demo-student-avatar" class="mb-3"></div>
+          <h5 class="mb-1" id="demo-student-name">Étudiant</h5>
+          <p class="text-muted small" id="demo-student-program">Programme — Niveau</p>
+          <p class="text-muted small" id="demo-student-year">Année · Campus</p>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card border-primary rounded-0 text-center py-4">
+              <div class="card-body">
+                <h3 class="text-primary mb-0" id="demo-student-points">0</h3>
+                <p class="mb-0 text-muted small">Points d'école</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card border-primary rounded-0 text-center py-4">
+              <div class="card-body">
+                <h3 class="text-primary mb-0" id="demo-student-attendance">0%</h3>
+                <p class="mb-0 text-muted small">Assiduité</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card border-primary rounded-0 text-center py-4">
+              <div class="card-body">
+                <h5 class="text-primary mb-1">Déconnexion</h5>
+                <a href="#" class="btn btn-outline-primary btn-sm" data-demo-logout>Se déconnecter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grades with progress bars -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <h5 class="font-weight-bold mb-3">Mes notes</h5>
+        <div id="demo-grades" class="row">
+          <!-- populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Weekly timetable -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <h5 class="font-weight-bold mb-3">Emploi du temps de la semaine</h5>
+        <div class="table-responsive">
+          <table class="table table-bordered text-center align-middle">
+            <thead class="bg-secondary text-white">
+              <tr><th>Créneau</th><th id="demo-th-lun">Lun</th><th id="demo-th-mar">Mar</th><th id="demo-th-mer">Mer</th><th id="demo-th-jeu">Jeu</th><th id="demo-th-ven">Ven</th><th id="demo-th-sam">Sam</th></tr>
+            </thead>
+            <tbody id="demo-timetable">
+              <!-- populated by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick lists row -->
+    <div class="row mb-4">
+      <div class="col-lg-3 col-sm-6 mb-3">
+        <div class="card rounded-0 border-primary">
+          <div class="card-header bg-primary text-white"><h6 class="mb-0">Annonces</h6></div>
+          <div class="card-body p-3" id="demo-announcements">
+            <!-- populated by JS -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-3">
+        <div class="card rounded-0 border-primary">
+          <div class="card-header bg-primary text-white"><h6 class="mb-0">Examens à venir</h6></div>
+          <div class="card-body p-3" id="demo-exams">
+            <!-- populated by JS -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-3">
+        <div class="card rounded-0 border-primary">
+          <div class="card-header bg-primary text-white"><h6 class="mb-0">Documents</h6></div>
+          <div class="card-body p-3" id="demo-documents">
+            <!-- populated by JS -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-3">
+        <div class="card rounded-0 border-primary">
+          <div class="card-header bg-primary text-white"><h6 class="mb-0">Messages</h6></div>
+          <div class="card-body p-3" id="demo-messages">
+            <!-- populated by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="/profile/" class="btn btn-outline-primary">Voir mon profil complet</a>
+    </div>
+  </div>
+</section>

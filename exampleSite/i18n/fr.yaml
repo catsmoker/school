@@ -108,3 +108,9 @@
 
 - id: download
   translation: Télécharger
+
+- id: demo_note
+  translation: "Projet démo scolaire. Contenu inspiré des sites publics OFPPT, MyWay et CMC. Toutes les données sont fictives."
+
+- id: project_credit
+  translation: "Projet créé par Abdullah Anshar et Mouad."

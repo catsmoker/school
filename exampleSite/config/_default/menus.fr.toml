@@ -50,6 +50,26 @@ name = "Contact"
 url = "contact/"
 weight = 5
 
+[[main]]
+name = "Admission"
+url = "apply/"
+weight = 6
+
+[[main]]
+name = "Frais"
+url = "fees/"
+weight = 7
+
+[[main]]
+name = "Connexion"
+url = "login/"
+weight = 8
+
+[[main]]
+name = "Espace étudiant"
+url = "dashboard/"
+weight = 9
+
 
 # footer menu
 

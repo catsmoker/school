@@ -13,7 +13,7 @@ location: "ISTA, Rabat"
 # entry fee
 fee: "Sur convocation"
 # apply url
-apply_url : "contact/"
+apply_url : "/apply/"
 # event speaker
 speaker:
   # speaker loop

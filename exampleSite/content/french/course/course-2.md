@@ -19,7 +19,7 @@ weekly: "30 heures"
 # course fee
 fee: "950 DH / an"
 # apply url
-apply_url : "contact/"
+apply_url : "/apply/"
 # type
 type: "course"
 ---

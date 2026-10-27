@@ -9,7 +9,7 @@ description : "CV, entretiens et offres d'emploi : retour sur le forum qui conne
 # post thumbnail
 image: "images/blog/post-1.jpg"
 # post author
-author: "Moaad"
+author: "Rédaction OFPPT"
 # taxonomy
 categories: ["Emploi"]
 tags: ["Forum", "Lauréats"]

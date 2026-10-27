@@ -9,7 +9,7 @@ description : "Cours en ligne, classes virtuelles et ateliers présentiels : OFP
 # post thumbnail
 image: "images/blog/post-3.jpg"
 # post author
-author: "Abdolah Anjar"
+author: "Rédaction OFPPT"
 # taxonomy
 categories: ["Numérique"]
 tags: ["E-learning", "Innovation"]
