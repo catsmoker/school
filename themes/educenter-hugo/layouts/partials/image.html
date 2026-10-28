@@ -1,0 +1,17 @@
+{{/* image.html partial — responsive image helper.
+   Params: Src (required), Alt, Class, Style, Width, Height.
+   Processes the source through Hugo's image pipeline (fingerprinting)
+   so cache-busting works in production builds.
+   Does NOT force width/height — preserves natural aspect ratio. */}}
+{{- $src := .Src -}}
+{{- $alt := default "" .Alt -}}
+{{- $class := default "" .Class -}}
+{{- $style := default "" .Style -}}
+{{- $width := default "" .Width -}}
+{{- $height := default "" .Height -}}
+{{- $img := resources.Get $src -}}
+{{- $finalStyle := $style -}}
+{{- if not $style -}}
+  {{- $finalStyle = "height: auto; max-width: 100%;" -}}
+{{- end -}}
+<img src="{{ $img.RelPermalink }}" alt="{{ $alt }}"{{ if $class }} class="{{ $class }}"{{ end }}{{ if $width }} width="{{ $width }}"{{ end }}{{ if $height }} height="{{ $height }}"{{ end }}{{ if $finalStyle }} style="{{ $finalStyle }}"{{ end }} />

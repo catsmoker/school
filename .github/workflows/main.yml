@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+# Build and deploy the production Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -15,11 +15,8 @@ permissions:
 # Environment variables available to all jobs and steps in this workflow
 env:
   HUGO_ENV: production
-  HUGO_VERSION: "0.160.0"
+  HUGO_VERSION: "0.161.0"
   GO_VERSION: "1.21"
-  NODE_VERSION: "18.15.0"
-  TINA_CLIENT_ID: ${{ vars.TINA_CLIENT_ID }}
-  TINA_TOKEN: ${{ vars.TINA_TOKEN }}
 
 jobs:
   # Build job
@@ -27,11 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-
       - name: Install Hugo
         run: |
           curl -LO "https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz"
@@ -43,19 +35,11 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@v5
         with:
-          go-version-file: "exampleSite/go.mod"
-
-      - name: Setup Project
-        run: npm run project-setup
-
-      - name: Install npm dependencies
-        run: npm install
+          go-version-file: "go.mod"
 
       - name: Publish to GitHub Pages
-        # NOTE: project-setup flattens the theme into a root site, so call hugo
-        # directly (npm run build can't take extra CLI flags — they land after `fi`).
         run: |
-          export HUGO_CACHEDIR=${TMPDIR:-/tmp}/educenter-hugo-cache GOMODCACHE=${TMPDIR:-/tmp}/educenter-gomodcache GOCACHE=${TMPDIR:-/tmp}/educenter-gocache
+          export HUGO_CACHEDIR=${TMPDIR:-/tmp}/school-hugo-cache GOMODCACHE=${TMPDIR:-/tmp}/school-gomodcache GOCACHE=${TMPDIR:-/tmp}/school-gocache
           hugo --gc --minify --forceSyncStatic --buildFuture --baseURL https://catsmoker.github.io/school/
 
       - name: Upload artifact

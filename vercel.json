@@ -1,4 +1,10 @@
 {
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "*": false
+    }
+  },
   "builds": [
     {
       "src": "vercel-build.sh",

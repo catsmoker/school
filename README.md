@@ -1,164 +1,63 @@
-<h1 align=center>Educenter Hugo</h1> 
-<p align=center> Educenter is a Hugo theme designed specifically for educational websites. This sleek theme is packed with all the elements that you need to show info about your school, courses, instructors, announcements, and more. </p>
+# School Website
 
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/educenter" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Feducenter%2Fsite%2F&form_factor=desktop">Page Speed (96%)🚀</a></h2>
+A French-language website for professional education in Morocco, built with
+Hugo. This repository contains the site itself, including its content, layouts,
+configuration, and assets.
 
+## Requirements
 
-<p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.160.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.160.0%20(extended)&color=f00&logo=hugo" />
-  </a>
+- Hugo Extended 0.160.0 or newer
+- Go 1.21 or newer (for the Hugo image module)
+- Node.js only if you want to use the npm command wrappers
 
-  <a href="https://github.com/themefisher/educenter-hugo/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/themefisher/educenter-hugo" alt="license"></a>
-
-  <img src="https://img.shields.io/github/languages/code-size/themefisher/educenter-hugo" alt="code size">
-
-  <a href="https://github.com/themefisher/educenter-hugo/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/themefisher/educenter-hugo" alt="contributors"></a>
-
-  <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
-    <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
-      alt="follow on Twitter"></a>
-</p>
-
----
-
-<p align="center">
-<img src="https://assets.teamosis.com/thumbs/educenter.png" alt="screenshot" width="100%">
-</p>
-
----
-## 📌Key Features
-
--  📄 19+ Pre-designed pages
--  📚Multiple language support (Fr) 
-- 〽️Google analytics  support 
--  📂CSS and Js bundle with hugo pipe
--  🔧Netlify settings predefine
--  👥Multiple author available
--  📝Contact form Support
--  📧Mailchimp integrate
--  👉GDPR consent enable
--  🌏Google map support
--  📰Top header customization
--  🗃️Taxonomy or category
--  ⚡Google page speed optimized
--  🧑‍💻Open graph meta tag
--  👉Twitter card meta tag
--  🌐Social Share
-
-## 📄 19+ Pre-Designed Pages
-
-- 🏠Home
-- 👤About
-- 👤Author Single Page
-- 📗Course Page
-- 📗Course Single Page
-- 🗂️Categories
-- 🗂️Category Single
-- 📝Blog
-- 📝Blog Single
-- 📞Contact
-- 📆Event Page 
-- 📆Event single Page
-- 📄Notice Page
-- 📄Notice Single Page
-- 📑Research Page 
-- 📑Research Single Page
-- 👑Scholarship Page
-- 🧑‍💼Teacher Page
-- 🧑‍💼Teacher Single Page 
-- 📖404 Page
-
-
-## 🛠️Local development
-
-This repo is a Hugo theme — `exampleSite/` is the demo site.
-**Do not run `npm run project-setup`** for theme work: it converts the theme
-into a standalone site and destroys the theme layout (deploy configs run it
-automatically).
-
-Requires **Hugo Extended >= 0.160.0** (SCSS compilation). The npm scripts are
-bash-only; on Windows PowerShell/cmd use Git Bash, or run Hugo directly,
-e.g. `cd exampleSite && hugo server --themesDir ..`.
+## Local development
 
 ```bash
-# clone the repository
-git clone git@github.com:themefisher/educenter-hugo.git
-cd educenter-hugo
-
-# Start local dev server
-$ npm run dev
+npm run dev
 ```
 
-Or Check out [Full Documentation](https://docs.gethugothemes.com/educenter/?ref=github).
+Or run Hugo directly:
 
+```bash
+hugo server
+```
 
-## 🔧Deployment and hosting
+Create a production build with:
 
-<!-- edit with sitepins -->
+```bash
+npm run build
+```
 
-## 📝 Edit Content with CMS
+The npm wrappers use Bash. On Windows, use Git Bash or run Hugo directly.
 
-This template comes pre-configured with [**Sitepins**](https://sitepins.com/?aff=tfgithub), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
+## Content and configuration
 
-**How to get started:**
+- Site configuration: `config/_default/` and `hugo.toml`
+- French content: `content/french/`
+- Homepage data: `data/fr/`
+- French interface strings: `i18n/fr.yaml`
+- Site assets and static files: `assets/` and `static/`
+- Theme implementation: `themes/educenter-hugo/`
 
-Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
+## Netlify
 
-  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Educenter%20Hugo&repository=https://github.com/themefisher/educenter-hugo/?aff=tfgithub">
-    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
-  </a>
+The repository root is the Netlify base directory. `netlify.toml` builds and
+publishes `public/` for the production context only, using the Netlify URL as
+the Hugo base URL.
 
-<!-- reporting issue -->
-## 🐞Reporting Issues
-We use GitHub Issues as the official bug tracker for the Educenter  Template. Please Search [existing
-issues](https://github.com/themefisher/educenter-hugo/issues). Someone may have already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new
-issue](https://github.com/themefisher/educenter-hugo/issues).
+In the Netlify dashboard, choose the production branch under **Project
+configuration → Build & deploy → Continuous deployment**, and disable deploy
+previews and branch deploys. The configuration skips non-production builds as
+an additional guard.
 
+## Product integrations
 
- ## 📱Submit Your Website To Our Showcase
+The public pages are statically generated. Student account, application, and
+payment flows need production backend services before collecting real personal,
+application, or payment data. Do not use sample credentials or client-side
+simulations for real users or transactions.
 
-Are you using Educenter Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
+## Credits
 
-Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator. 
-
-View all the websites powered by Educenter Hugo from [here](https://gethugothemes.com/showcase?theme=educenter). 
-
-[Submit](https://gethugothemes.com/showcase?submit=show) your Educenter Hugo powered website.
-
-<!-- licence -->
-## 📝License
-Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
-[Gethugothemes](https://gethugothemes.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/educenter-hugo/blob/master/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
-share those images.
-
-<!-- resources -->
-## 👍Special Thanks
-- [Bootstrap](https://getbootstrap.com)
-- [Jquery](https://jquery.com)
-- [Themify Icons](https://themify.me/themify-icons)
-- [Slick Slider](https://kenwheeler.github.io/slick/)
-- [Venobox](https://veno.es/venobox/)
-- [Filterizr](https://yiotis.net/filterizr/)
-- [Google Fonts](https://fonts.google.com/)
-- [All Contributors](https://github.com/themefisher/educenter-hugo/graphs/contributors)
-
-
-## 👨‍💻Hire Us
-Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo. 
-
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our 
-[Services](https://gethugothemes.com/services/?utm_source=educenter_github&utm_medium=referral&utm_campaign=github_theme_readme)**
-
-<!-- premium themes -->
-## 🔥Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=educenter_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.png)](https://gethugothemes.com/products/bizcraft/) | [![Meghna](https://demo.gethugothemes.com/thumbnails/bexer.png)](https://gethugothemes.com/products/bexer/) |
-|:---:|:---:|:---:|
-| **Get 55+ Premium Hugo Themes Bundle** | **Bizcraft** | **Bexer** |
+The site uses the Educenter Hugo theme, distributed under the repository's MIT
+license.

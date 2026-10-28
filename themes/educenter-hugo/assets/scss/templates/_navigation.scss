@@ -1,0 +1,236 @@
+.top-header {
+  font-size: 12px;
+  transition: transform .2s ease;
+  transform-origin: top;
+  font-weight: 600;
+
+  &.hide {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+}
+
+.navigation {
+  background: linear-gradient(to right, transparent 50%, $primary-color 50%);
+  transition: .2s ease;
+
+  @include desktop-lg {
+    background: $secondary-color;
+
+    .navbar-brand {
+      padding: 8px 0;
+    }
+  }
+}
+
+.navbar {
+  position: relative;
+
+  @include desktop-lg {
+    min-height: 76px;
+
+    .navbar-brand img {
+      max-width: 180px;
+      max-height: 60px;
+    }
+
+    .navbar-toggler {
+      margin-left: auto;
+      padding: .5rem .65rem;
+      border: 1px solid rgba($white, .45);
+      border-radius: 4px !important;
+
+      &:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .2rem rgba($white, .35);
+      }
+    }
+  }
+}
+
+.navbar-collapse {
+  @include desktop-lg {
+    position: absolute;
+    z-index: 20;
+    top: 100%;
+    right: 0;
+    left: auto;
+    width: 420px;
+    max-width: calc(100vw - 30px);
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    padding: .5rem 1rem 1rem;
+    background: $secondary-color;
+    box-shadow: 0 10px 24px rgba($black, .2);
+    border-radius: 0 0 6px 6px;
+
+    .nav-item {
+      margin: 0;
+      border-bottom: 1px solid rgba($white, .12);
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      .nav-link {
+        padding: 11px 12px;
+        text-align: left;
+      }
+    }
+
+    .dropdown-menu {
+      position: static;
+      box-shadow: none;
+      border-bottom: 0;
+      padding: 0 0 .5rem 1rem;
+      background: rgba($white, .06);
+
+      &.show {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.navbar-nav {
+  padding-left: 50px;
+  background: $primary-color;
+
+  @include desktop-lg {
+    padding-left: 0;
+    background: transparent;
+  }
+}
+
+.navbar-expand-xl .navbar-nav .nav-link {
+  padding: 24px 4px;
+
+  @include desktop-lg {
+    padding: 12px 8px;
+  }
+}
+
+.nav-bg {
+  background-color: $secondary-color;
+}
+
+.nav-item {
+  .nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  margin: 0 9px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background: $white;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .3s ease;
+  }
+
+  &:hover,
+  &.active {
+    &::before {
+      transform: scaleY(1);
+      transform-origin: bottom;
+    }
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $white;
+}
+
+link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $white;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: $white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: $white;
+  box-shadow: 0 2px 5px #0000000d;
+}
+
+.navbar {
+  .dropdown {
+    &:hover {
+      .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+
+    &-menu {
+      box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
+      border-bottom: 5px solid $primary-color;
+      padding: 15px;
+      top: 96px;
+      border-radius: 0;
+      display: block;
+      visibility: hidden;
+      transition: .3s ease;
+      opacity: 0;
+      transform: translateY(20px);
+      background: $white;
+
+      @include desktop-lg {
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        transform-origin: unset;
+      }
+
+      &.show {
+        visibility: hidden;
+
+        @include desktop-lg {
+          visibility: visible;
+          display: block;
+        }
+      }
+    }
+
+    &-item {
+      position: relative;
+      color: $text-color-dark;
+      transition: .2s ease;
+      text-transform: capitalize;
+      font-family: $primary-font;
+
+      @include desktop-lg {
+        padding: .5rem 1rem;
+        text-align: left;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      &:hover {
+        color: $primary-color;
+        background: transparent;
+      }
+    }
+  }
+}
